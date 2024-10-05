@@ -1,0 +1,45 @@
+/* Styles for the About Section */
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e4e094; /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+.about-container p {
+    color: #010b15; /* Darker text for readability */
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.about-container h1 {
+    text-align: center;
+    color: #521c03; /* Accent color for heading */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-container p:first-of-type {
+    color: #010b15; /* Accent color for the first paragraph */
+}
+
+.about-container p:last-of-type {
+    font-style: italic; /* Italicize the closing message */
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 15px;
+        margin: 30px 15px;
+    }
+    .about-container p {
+        font-size: 16px;
+    }
+    .about-container h1 {
+        font-size: 30px;
+    }
+}
